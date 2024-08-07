@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+Книги
+{% endblock %}
+{% block navigation %}
+<a href="/">Главная</a>
+<a href="/certificates">Сертификаты</a>
+{% endblock %}
+{% block body %}
+<h1>Мои книги</h1>
+<a href="https://read.bookcreator.com/UMyBChUe8aak2qE4MKoHRCb4sgF3/k5MpUHNoTDCuhTXFdXeL5Q" target="_blank"><img src="{% static 'index/img/zombie.jpg' %}"></a><br/>
+<p>MCskis gegen die Zombies</p>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+Сертификаты
+{% endblock %}
+{% block navigation %}
+<a href="/">Главная</a>
+<a href="/books">Книги</a>
+{% endblock %}
+{% block body %}
+<h1>Сертификаты</h1>
+<img src="{% static 'index/img/stepik1.jpg' %}" width="400" height="300"><br/>
+<img src="{% static 'index/img/uchi_ru1.jpg' %}" width="250" height="300"><br/>
+{% endblock %}
